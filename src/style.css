@@ -927,6 +927,10 @@ video {
   margin: auto;
 }
 
+.m-\[2px\] {
+  margin: 2px;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1032,6 +1036,14 @@ video {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
+.mr-\[4px\] {
+  margin-right: 4px;
 }
 
 .box-border {
@@ -1434,6 +1446,30 @@ video {
 
 .w-\[400px\] {
   width: 400px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[750px\] {
+  width: 750px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[30px\] {
+  width: 30px;
 }
 
 .min-w-\[100vw\] {
@@ -2153,6 +2189,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -3849,6 +3891,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[70px\] {
+  font-size: 70px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -4365,6 +4411,10 @@ video {
 
 .decoration-wavy {
   text-decoration-style: wavy;
+}
+
+.underline-offset-1 {
+  text-underline-offset: 1px;
 }
 
 .antialiased {
